@@ -46,3 +46,31 @@ position: absolute; top:0; left: 0; width: 100%; height: 100%;
     text-decoration: none;
     color: white;
 }
+
+#special {
+    display: none;
+}
+
+#special-box:hover + #special {
+    display: block;
+}
+
+#safety {
+    display: none;
+}
+
+#safety-box:hover + #safety {
+    display: block;
+}
+
+#laws {
+    display: none;
+}
+
+#laws-box:hover + #laws {
+    display: block;
+}
+
+.committee-description {
+    transition: opacity .25s ease-in-out;
+}
