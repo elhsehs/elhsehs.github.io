@@ -71,6 +71,14 @@ position: absolute; top:0; left: 0; width: 100%; height: 100%;
     display: block;
 }
 
+#maint {
+    display: none;
+}
+
+#maint-box:hover + #maint {
+    display: block;
+}
+
 .committee-description {
     transition: opacity .25s ease-in-out;
 }
